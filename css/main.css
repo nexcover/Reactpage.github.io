@@ -301,6 +301,18 @@ p {
     font-weight: 900;
 }
 
+.text9-1 {
+    color: white;
+    margin-left: 15%;
+    display: none;
+}
+
+#text9-1 {
+    font-weight: 900;
+    font-size: 12px;
+    margin-bottom: 5px;
+    display: none;
+}
 
 @media screen and (max-width:768px) {
     .container {
@@ -449,7 +461,8 @@ p {
 
     .text9 {
         color: white;
-        margin-left: 7%;
+        margin-left: 15%;
+        display: none;
     }
 
     .text7 {
@@ -464,5 +477,18 @@ p {
         height: 96.3%;
         opacity: 0;
         transition: 2s;
+    }
+
+    .text9-1 {
+        color: white;
+        margin-left: 7%;
+        display: flex;
+    }
+
+    #text9-1 {
+        font-weight: 900;
+        font-size: 12px;
+        margin-bottom: 5px;
+        display: flex;
     }
 }
