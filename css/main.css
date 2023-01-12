@@ -457,4 +457,12 @@ p {
         font-weight: 700;
         margin-bottom: 40px;
     }
+
+    .boxline {
+        border: 7px solid white;
+        width: 97%;
+        height: 96.3%;
+        opacity: 0;
+        transition: 2s;
+    }
 }
